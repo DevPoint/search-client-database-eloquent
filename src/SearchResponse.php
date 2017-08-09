@@ -1,12 +1,12 @@
 <?php
 
-namespace App\LetzteMeile\Hotel\Database\Core;
+namespace Devpoint\SearchClient\Database\Eloquent;
 
 use Illuminate\Support\Collection as BaseCollection;
 use Illuminate\Database\Eloquent\Model;
-use App\Search\Contracts\SearchClientResponse;
-use App\Search\Database\Contracts\BaseSearchResponse as BaseSearchResponseContract;
-use App\Search\Database\Core\BaseSearchResponse;
+use Devpoint\SearchClient\Contracts\SearchClientResponse;
+use Devpoint\SearchClient\Database\Contracts\BaseSearchResponse as BaseSearchResponseContract;
+use Devpoint\SearchClient\Database\Core\BaseSearchResponse;
 
 class SearchResponse extends BaseSearchResponse implements BaseSearchResponseContract {
 

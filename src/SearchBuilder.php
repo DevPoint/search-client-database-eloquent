@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Search\Database\Contracts;
+namespace Devpoint\SearchClient\Database\Eloquent;
 
 use Illuminate\Database\Eloquent\Model;
-use App\Search\Contracts\SearchClientResponse;
-use App\Search\Database\Contracts\BaseSearchBuilder as BaseSearchBuilderContract;
-use App\Search\Database\Core\BaseSearchBuilder;
+use Devpoint\SearchClient\Contracts\SearchClientResponse;
+use Devpoint\SearchClient\Database\Contracts\BaseSearchBuilder as BaseSearchBuilderContract;
+use Devpoint\SearchClient\Database\Core\BaseSearchBuilder;
 
 class SearchBuilder extends BaseSearchBuilder implements BaseSearchBuilderContract {
 
